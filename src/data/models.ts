@@ -41,14 +41,14 @@ export const models: UpcomingModel[] = [
   {
     name: "Llama 4 Behemoth",
     org: "Meta",
-    releaseWindow: "Q2 2026",
-    releaseSortKey: "2026-05",
-    confidence: "confirmed",
+    releaseWindow: "H2 2026",
+    releaseSortKey: "2026-09",
+    confidence: "rumor",
     sourceUrl: "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
     sourceLabel: "Meta AI Blog",
     lastUpdated: "2026-03-31",
     notes:
-      "288B-active MoE, largest Llama 4 variant. Announced alongside Scout/Maverick but not yet released. Still in training/eval.",
+      "288B-active MoE, largest Llama 4 variant. Meta pushed release to fall 2026 or later. Originally announced alongside Scout/Maverick.",
   },
   {
     name: "Llama 5 / Avocado",
@@ -61,18 +61,6 @@ export const models: UpcomingModel[] = [
     lastUpdated: "2026-03-31",
     notes:
       "Codenamed 'Avocado'. May abandon open-source for closed-source commercial approach. Timeline uncertain.",
-  },
-  {
-    name: "Nemotron 3 Super",
-    org: "NVIDIA",
-    releaseWindow: "H1 2026",
-    releaseSortKey: "2026-06",
-    confidence: "confirmed",
-    sourceUrl: "https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models",
-    sourceLabel: "NVIDIA Newsroom",
-    lastUpdated: "2026-03-31",
-    notes:
-      "Part of Nemotron 3 family. Announced at GTC, expected H1 2026 availability.",
   },
   {
     name: "Nemotron 3 Ultra",
@@ -99,18 +87,6 @@ export const models: UpcomingModel[] = [
       "Mistral maintains rapid release cadence. Large 2 released Dec 2025, successor expected mid-2026.",
   },
   {
-    name: "Mistral Small 4",
-    org: "Mistral",
-    releaseWindow: "Q2 2026",
-    releaseSortKey: "2026-04",
-    confidence: "confirmed",
-    sourceUrl: "https://llm-stats.com/llm-updates",
-    sourceLabel: "LLM Stats",
-    lastUpdated: "2026-03-31",
-    notes:
-      "Announced March 2026. Lightweight model following Small 3.1 24B.",
-  },
-  {
     name: "Qwen 4",
     org: "Alibaba",
     releaseWindow: "Q3 2026",
@@ -133,18 +109,6 @@ export const models: UpcomingModel[] = [
     lastUpdated: "2026-03-31",
     notes:
       "Expected follow-up to Gemma 3. Google maintains steady open-model cadence.",
-  },
-  {
-    name: "MiMo-V2-Pro",
-    org: "Xiaomi",
-    releaseWindow: "Q2 2026",
-    releaseSortKey: "2026-04",
-    confidence: "leaked",
-    sourceUrl: "https://llm-stats.com/ai-news",
-    sourceLabel: "LLM Stats",
-    lastUpdated: "2026-03-31",
-    notes:
-      "Appeared anonymously on OpenRouter as 'Hunter Alpha' in March 2026, initially mistaken for DeepSeek V4.",
   },
   {
     name: "Phi-5",
