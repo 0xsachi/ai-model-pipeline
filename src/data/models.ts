@@ -75,18 +75,6 @@ export const models: UpcomingModel[] = [
       "Largest Nemotron 3 variant. Enterprise-focused, expected alongside Super.",
   },
   {
-    name: "Mistral Large 3",
-    org: "Mistral",
-    releaseWindow: "Q2–Q3 2026",
-    releaseSortKey: "2026-07",
-    confidence: "rumor",
-    sourceUrl: "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
-    sourceLabel: "TechCrunch",
-    lastUpdated: "2026-03-31",
-    notes:
-      "Mistral maintains rapid release cadence. Large 2 released Dec 2025, successor expected mid-2026.",
-  },
-  {
     name: "Qwen 4",
     org: "Alibaba",
     releaseWindow: "Q3 2026",
@@ -111,30 +99,6 @@ export const models: UpcomingModel[] = [
       "Expected follow-up to Gemma 3. Google maintains steady open-model cadence.",
   },
   {
-    name: "Phi-5",
-    org: "Microsoft",
-    releaseWindow: "H2 2026",
-    releaseSortKey: "2026-09",
-    confidence: "rumor",
-    sourceUrl: "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning/",
-    sourceLabel: "Microsoft Research",
-    lastUpdated: "2026-03-31",
-    notes:
-      "Expected successor to Phi-4. Microsoft focuses on efficient small models. No official announcement.",
-  },
-  {
-    name: "GLM-6",
-    org: "Zhipu AI",
-    releaseWindow: "H2 2026",
-    releaseSortKey: "2026-10",
-    confidence: "rumor",
-    sourceUrl: "https://www.zhipuai.cn/",
-    sourceLabel: "Zhipu AI",
-    lastUpdated: "2026-03-31",
-    notes:
-      "Follow-up to GLM-5 (current top open-source performer). No official timeline yet.",
-  },
-  {
     name: "Kimi K3",
     org: "Moonshot AI",
     releaseWindow: "H2 2026",
@@ -145,17 +109,5 @@ export const models: UpcomingModel[] = [
     lastUpdated: "2026-03-31",
     notes:
       "Successor to K2.5. Moonshot AI rapidly iterating on MoE architectures.",
-  },
-  {
-    name: "Falcon 4",
-    org: "TII",
-    releaseWindow: "Q3 2026",
-    releaseSortKey: "2026-09",
-    confidence: "rumor",
-    sourceUrl: "https://falconllm.tii.ae/",
-    sourceLabel: "Falcon LLM",
-    lastUpdated: "2026-03-31",
-    notes:
-      "Expected next generation from Technology Innovation Institute. Falcon 3 released late 2025.",
   },
 ];
